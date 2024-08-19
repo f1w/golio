@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/KnutZuidema/golio/api"
-	"github.com/KnutZuidema/golio/internal"
-	"github.com/KnutZuidema/golio/internal/mock"
+	"github.com/f1w/golio/api"
+	"github.com/f1w/golio/internal"
+	"github.com/f1w/golio/internal/mock"
 )
 
 func TestChallengesClient_GetLeaderboardByActId(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/KnutZuidema/golio/api"
-	"github.com/KnutZuidema/golio/internal"
+	"github.com/f1w/golio/api"
+	"github.com/f1w/golio/internal"
 )
 
 // TournamentClient provides methods for the tournament endpoints of the League of Legends API.

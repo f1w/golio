@@ -5,12 +5,12 @@ package riot
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/KnutZuidema/golio/api"
-	"github.com/KnutZuidema/golio/internal"
-	"github.com/KnutZuidema/golio/riot/account"
-	"github.com/KnutZuidema/golio/riot/lol"
-	"github.com/KnutZuidema/golio/riot/lor"
-	"github.com/KnutZuidema/golio/riot/val"
+	"github.com/f1w/golio/api"
+	"github.com/f1w/golio/internal"
+	"github.com/f1w/golio/riot/account"
+	"github.com/f1w/golio/riot/lol"
+	"github.com/f1w/golio/riot/lor"
+	"github.com/f1w/golio/riot/val"
 )
 
 // Client provides access to all Riot API endpoints

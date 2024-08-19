@@ -5,7 +5,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/KnutZuidema/golio/internal"
+	"github.com/f1w/golio/internal"
 )
 
 // ChampionMasteryClient provides methods for the champion mastery endpoints of the
