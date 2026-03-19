@@ -13,8 +13,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/f1w/golio/api"
-	"github.com/f1w/golio/internal"
+	"github.com/KnutZuidema/golio/api"
+	"github.com/KnutZuidema/golio/internal"
 )
 
 const (
@@ -32,13 +32,12 @@ var (
 		api.RegionKorea:             "kr",
 		api.RegionLatinAmericaNorth: "lan",
 		api.RegionLatinAmericaSouth: "las",
+		api.RegionMiddleEast:        "me",
 		api.RegionNorthAmerica:      "na",
 		api.RegionOceania:           "oce",
 		api.RegionPBE:               "pbe",
-		api.RegionPhilippines:       "ph",
 		api.RegionRussia:            "ru",
-		api.RegionSingapore:         "sg",
-		api.RegionThailand:          "th",
+		api.RegionSouthEastAsia:     "sea",
 		api.RegionTurkey:            "tr",
 		api.RegionTaiwan:            "tw",
 		api.RegionVietnam:           "vn",
